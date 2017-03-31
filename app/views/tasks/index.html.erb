@@ -1,6 +1,10 @@
 <% @tasks.each do |task| %>
+<div>
 <h2><%= link_to task.title, task %></h2>
 <p><%= task.company %></p>
 <% end %>
+</div>
+
+<div><img src="http://vignette3.wikia.nocookie.net/scribblenauts/images/8/82/Utility_Worker.png/revision/latest?cb=20130210132605" align="right"></div>
 
 <%= link_to "New Task", new_task_path %>

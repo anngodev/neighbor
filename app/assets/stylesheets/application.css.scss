@@ -27,7 +27,7 @@ html {
 
 body {
 	height: 100%;
-  background: #fcdfdf;
+  background: #d3cec4;
   font-family: 'Lato', sans-serif;
 }
 
@@ -41,7 +41,6 @@ body {
   clear: both;
 }
 
-// NAVBAR STYLING
 
 .navbar-default {
 	background-color: white;
@@ -49,17 +48,19 @@ body {
 	height: 80px;
 	padding: 15px 0;
 	border: none;
+	background-image: url(http://vignette3.wikia.nocookie.net/scribblenauts/images/8/82/Utility_Worker.png/revision/latest?cb=20130210132605);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: 75px 75px;
 }
 
 .navbar-brand {
 	text-transform: uppercase;
 	letter-spacing: -1px;
-	font-size: 2em;
+	font-size: 36px;
 	font-weight: 300;
-	color: #39c0d8 !important;
+	color: #5e99aa !important;
 }
-
-// TASKS STYLING
 
 
 #jobs {
@@ -70,13 +71,13 @@ body {
 			font-size: 2.5em;
 			font-weight: 300;
 			margin-bottom: 0;
-			color: #39c0d8;
+			color: #444f51;
 			a {
-				color: #39c0d8;
+				color: #444f51;
 			}
 		}
 		p {
-			color: #789399;
+			color: #444f51;
 		}
 	}
 }
