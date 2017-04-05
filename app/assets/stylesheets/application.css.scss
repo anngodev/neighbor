@@ -14,74 +14,74 @@
  *= require_self
  */
 
-@import "bootstrap-sprockets";
-@import "bootstrap";
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
 
-* {
-	box-sizing: border-box;
-}
+ * {
+ 	box-sizing: border-box;
+ }
 
-html {
-	height: 100%;
-}
+ html {
+ 	height: 100%;
+ }
 
-body {
-	height: 100%;
-  background: #d3cec4;
-  font-family: 'Lato', sans-serif;
-}
+ body {
+ 	height: 100%;
+ 	background: #d3cec4;
+ 	font-family: 'Lato', sans-serif;
+ }
 
-.clearfix:before,
-.clearfix:after {
-  content: " ";
-  display: table;
-}
+ .clearfix:before,
+ .clearfix:after {
+ 	content: " ";
+ 	display: table;
+ }
 
-.clearfix:after {
-  clear: both;
-}
-
-
-.navbar-default {
-	background-color: white;
-	border-radius: 0;
-	height: 80px;
-	padding: 15px 0;
-	border: none;
-	background-image: url(http://vignette3.wikia.nocookie.net/scribblenauts/images/8/82/Utility_Worker.png/revision/latest?cb=20130210132605);
-	background-repeat: no-repeat;
-	background-position: right top;
-	background-size: 60px 75px;
-}
-
-.navbar-brand {
-	text-transform: uppercase;
-	letter-spacing: -1px;
-	font-size: 36px;
-	font-weight: 300;
-	color: #5e99aa !important;
-}
+ .clearfix:after {
+ 	clear: both;
+ }
 
 
-#jobs {
-	.job {
-		padding: 1em 0;
-		border-bottom: 1px solid rgba(250,250,250, 0.5);
-		h2 {
-			font-size: 18px;
-			font-weight: 300;
-			margin-bottom: 0;
-			color: #5e99aa;
-			a {
-				color: #5e99aa;
-			}
-		}
-		p {
-			color: #444f51;
-		}
-	}
-}
+ .navbar-default {
+ 	background-color: white;
+ 	border-radius: 0;
+ 	height: 80px;
+ 	padding: 15px 0;
+ 	border: none;
+ 	background-image: url(http://vignette3.wikia.nocookie.net/scribblenauts/images/8/82/Utility_Worker.png/revision/latest?cb=20130210132605);
+ 	background-repeat: no-repeat;
+ 	background-position: right top;
+ 	background-size: 60px 75px;
+ }
 
-#links {
-	margin-top: 2em;
-}
+ .navbar-brand {
+ 	text-transform: uppercase;
+ 	letter-spacing: -1px;
+ 	font-size: 36px;
+ 	font-weight: 300;
+ 	color: #5e99aa !important;
+ }
+
+
+ #jobs {
+ 	.job {
+ 		padding: 1em 0;
+ 		border-bottom: 1px solid rgba(250,250,250, 0.5);
+ 		h2 {
+ 			font-size: 18px;
+ 			font-weight: 350;
+ 			margin-bottom: 0;
+ 			color: #5e99aa;
+ 			a {
+ 				color: #5e99aa;
+ 			}
+ 		}
+ 		p {
+ 			color: #444f51;
+ 		}
+ 	}
+ }
+
+ #links {
+ 	margin-top: 2em;
+ }
